@@ -1,0 +1,69 @@
+# Python development
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+dist/
+build/
+*.egg-info/
+*.egg
+* text=auto
+*.ipynb text eol=lf
+
+# Jupyter/Notebooks
+.ipynb_checkpoints/
+
+# Model artifacts
+models/saved_models/
+model_logs/
+*.pt
+*.bin
+*.h5
+
+# Logs and debug files
+logs/
+*.log
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Local development
+local.settings.json
+
+# Security
+*.key
+*.pem
+credentials.json
+service-account.json
+
+# Ignore large files
+data/raw/news.csv
+data/processed/cleaned_news.csv
+venv/
+*.dll
+*.lib
+data/raw/
+data/processed/
+.dvc/
+.cache/
+/your_project
+  /data
+    /processed
+      cleaned_news.csv.dvc
+  .dvc/
+  .gitignore
+  .dvc/config
