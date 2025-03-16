@@ -132,7 +132,7 @@ News-Sentiment-Analysis/
 │   │   └── sentiment_trainer.py  # Model training
 │   ├── config/ 
 │   │   └── settings.py
-│   └── news.py              # Main application logic
+│   └── main.py              
 ├── requirements.txt         # Python dependencies
 ├── README.md                # Project documentation
 ├── docker-compose.yml
