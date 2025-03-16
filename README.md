@@ -1,4 +1,4 @@
-# 📈 Stock Sentiment Analysis and Classification
+# 📈 Stock Sentiment Analysis & Ranking
 
 This project performs **sentiment analysis** on financial news articles and calculates a **stock rating** based on sentiment, article volume, recency, and source credibility. The application is built using **Streamlit** for the interactive user interface and **Hugging Face's Inference API** for text classification.
 
