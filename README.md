@@ -87,7 +87,7 @@ The project is deployed using **AWS EC2** and is accessible via a **Streamlit** 
     streamlit run news.py
     ```
     
-5. **Access** the application at `http://<your-ec2-ip>:8501`.
+5. **Access** the application at `http://3.86.209.126:8501/`.
 
 ## 🧠 Code Explanation
 
